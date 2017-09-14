@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>login page</title>
+<script>
+function fun1()
+{
+var a=document.getElementById("uname").value;
+var b=document.getElementById("pass").value;
+if(a>5 && b>5)
+{
+ alert("the username and password must be 5 characters");
+}
+else(a<5 && b<5)
+{
+alert("the username and password must be 5 characters");
+}
+}
+</script>
+</head>
+<body>
+<h1>LOGIN PAGE</h1>
+username:<input type="text" id="uname"><<br><br>
+password:<input type="password" id="pass"><br><br>
+<button onclick="fun1()">submit</button>
+</body>
+</html>
